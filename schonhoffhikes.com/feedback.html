@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Feedback</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="leftheader">
+                <img src="images/header.jpg" class="headerimage">
+            </div>
+            <div class="rightheader">
+                <h1>Michael Schonhoff</h1>
+                <p>A Portfolio of Exploration</p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Base</a></li>
+                <li><a href="aboutmichael.html">About Michael</a></li>
+                <li><a href="missourihikes.html">Missouri Hikes</a></li>
+                <li><a href="#">Exploring the US</a></li>
+                <li><a href="#">Dream Destinations</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    <h2 class="feedback">Feedback</h2>
+    </div>
+    
+    <section>
+        <p class="center">Whether it's here in Missouri, somewhere in the US, or around the world, I'd love to hear about <b>your</b> favorite hike!</p>
+        <form>
+            <fieldset>
+                <legend>Your Contact Information</legend>
+                    <label for "name">Name:</label>
+                        <input type="text" id="name" name="name">
+                    <label for "Email">Email:</label>
+                        <input type="email" id="email" name="email">
+            </fieldset>
+            <fieldset>
+                <legend>Your Favorite Hike</legend>   
+                  <label for "hikename">Hike/Trail Name:</label>
+                    <input type="text" id="hikename" name="hikename">
+                  <label for "location">Location:</label>
+                    <input type="text" id="location" name="location">
+                  <p>Ideal Time to Hike:</p>
+					<label>
+						<input type="radio" name="season" 
+						value="spring">Spring
+					</label>
+					<label>
+						<input type="radio" name="season" 
+						value="summer">Summer
+					</label>
+					<label>
+						<input type="radio" name="season" 
+						value="fall">Fall
+					</label>
+					<label>
+						<input type="radio" name="season" 
+						value="winter">Winter
+					</label>
+                  <p>Trail Design:</p>
+					<label>
+						<input type="radio" name="type" 
+						value="loop">Loop
+					</label>
+					<label>
+						<input type="radio" name="type" 
+						value="outandback">Out-and-Back
+					</label>
+					<label>
+						<input type="radio" name="type" 
+						value="pointtopoint">Point-to-Point
+					</label>
+				  <p>Trail Surface:</p>
+					<label>
+						<input type="radio" name="surface" 
+						value="paved">Paved
+					</label>
+					<label>
+						<input type="radio" name="surface" 
+						value="gravel">Gravel
+					</label>
+					<label>
+						<input type="radio" name="surface" 
+						value="packedearth">Packed Earth
+					</label>
+                    <label>
+						<input type="radio" name="surface" 
+						value="rouchterrain">Rough Terrain
+					</label>
+                    <label>
+						<input type="radio" name="surface" 
+						value="bushwack">Bushwack
+                  <p>Trail Features (<em>check all that apply</em>):</p>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="scenicviews">Scenic Views
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="waterfall">Waterfalls
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="alongstream">Along Stream
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="cave">Caves
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="lake">Lakes
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="wildflowers">Wildflowers
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="wildlife">Wildlife
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="mountains">Forest Hike
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="backcountry">Backcountry
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="cave">Cave
+					</label>
+                    <label>
+                        <input type="checkbox" name="feature" 
+                            value="elevation">Steep Elevation Gain
+					</label>
+                  <p>Trail Rating:</p>
+					<label>
+						<input type="radio" name="rating" 
+						value="easy">Easy
+					</label>
+					<label>
+						<input type="radio" name="rating" 
+						value="moderate">Moderate
+					</label>
+					<label>
+						<input type="radio" name="rating" 
+						value="Strenuous">Strenuous
+                <label for="comments"><p>Description:</p></label>
+                    <textarea id="comments" name="comments" placeholder="Tell us why this is your favorite hike!"></textarea>
+            <button type="submit">Submit Your Favorite Hike!</button>
+            </fieldset>
+            
+        </form>
+    </section>
+   
+    
+</body>
+</html>

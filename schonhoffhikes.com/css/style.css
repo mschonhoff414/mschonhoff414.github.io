@@ -1,0 +1,210 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    background-color: #edf5e1;
+}
+
+header {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+    font-weight:bold;
+    color: #05386b;
+    margin: 0 auto;
+    font-weight:900;
+}
+
+.leftheader {
+    flex-basis: 41%;
+    text-align: right;
+    border: 0px dotted black;
+    margin: 0;
+    padding: 0;
+}
+
+.headerimage {
+    border-radius: 20px;
+}
+
+.rightheader {
+    flex-basis: 59%;
+    border: 0px dotted green;
+    margin: 0 0 0 1rem;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    text-align:center;
+    border-top: 4px solid #05386b;
+    border-bottom: 4px solid #05386b;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 3rem;
+    border: 0px dotted green;
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+
+nav a:link{
+    color:#05386b;
+}
+
+nav a:visited{
+    color:#05386b;
+}
+
+nav a:hover {
+    background-color: #5cdb95;
+}
+
+h2 {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    border-top: 5px solid #05386b;
+    border-bottom: 5px solid #05386b;
+    color: #05386b;
+    font-size:3rem;
+}
+
+.homebase {
+    background-image: url(homebase.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 0px #05386b;
+    text-align: center;
+    height: 250px;
+    line-height: 250px;
+    border: 0px;
+    color: white;
+    padding: 0;
+    margin: 1rem 0;
+    width: 1000px auto;
+    
+}
+
+.aboutmichael {
+    background-image: url(aboutmichael.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 0px #05386b;
+    text-align: center;
+    height: 250px;
+    line-height: 250px;
+    border: 0px;
+    color: white;
+    padding: 0;
+    margin: 1rem 0;
+    width: 1000px auto;
+}
+
+.missourihikes {
+    background-image: url(missourihikes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 0px #05386b;
+    text-align: center;
+    height: 250px;
+    line-height: 250px;
+    border: 0px;
+    color: white;
+    padding: 0;
+    margin: 1rem 0;
+    width: 1000px auto;
+}
+
+.feedback {
+    background-image: url(feedback.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 0px #05386b;
+    text-align: center;
+    height: 250px;
+    line-height: 250px;
+    border: 0px;
+    color: white;
+    padding: 0;
+    margin: 1rem 0;
+    width: 1000px auto;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    font-size:1.2rem;
+    color: #05386b;
+    font-family: 'Montserrat', sans-serif;
+}
+
+fieldset {
+    border: 3px solid #05386b;
+    border-radius: 20px;
+    margin: 0 auto 1rem auto;
+    background-color: #8ee4af;
+    width: 60%;
+}
+
+legend {
+    color:#05386b;
+    font-weight: bold;
+}
+
+label {
+    display:block;
+}
+
+input:not([type=radio]):not([type=checkbox]), textarea {
+    display:block;
+	margin-bottom:2rem;
+    padding: 0.3rem;
+	width: 20rem;
+	font-family: 'Courier Prime', monospace;
+	font-size: 1.1rem;
+	border-radius:10px;
+	border:none;
+}
+
+textarea {
+    height:5rem;
+    padding:0.3rem;
+}
+
+form p {
+    margin-bottom: 0;
+}
+
+button {
+    font-size:1.5rem;
+    font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+    background-color: #05386b;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding: .5rem;
+    color: #edf5e1;
+    align-items: center;
+    width:100%;
+}
+
+button:hover {
+    background-color: #379683;
+    color: #05386b;
+}
+
+.center {
+    text-align:center;
+}
